@@ -113,3 +113,21 @@ p {
     background-color: var(--Green);
     color: var(--Grey900);
 }
+
+.footer {
+    position: absolute;
+    /* bottom: 90px; */
+    display: flex;
+    font-size: 11px;
+    color: var(--white);
+    text-align: center;
+    /* justify-content: center; */
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* padding-bottom: 20px; */
+}
+
+.footer a {
+    color: var(--Green);
+}
